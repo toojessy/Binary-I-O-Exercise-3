@@ -20,7 +20,6 @@ public class Exercise17_03 {
                 count = input.readInt();
 
             } catch (IOException e) {
-                e.printStackTrace();
             }
 
             // TODO: Close the input stream (or use try-with-resources)
@@ -43,7 +42,6 @@ public class Exercise17_03 {
             // (Handled automatically)
 
         } catch (IOException e) {
-            e.printStackTrace();
         }
 
         // Display the result
